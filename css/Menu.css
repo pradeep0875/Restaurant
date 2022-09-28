@@ -1,0 +1,76 @@
+#item1,
+#item2,
+#item3,
+#item4,
+#item5,
+#item6,
+#item7,
+#item8 {
+	height: 200px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 10px auto;
+}
+.item1 > span {
+	text-align: center;
+}
+#item1:hover,
+#item2:hover,
+#item3:hover,
+#item4:hover,
+#item5:hover,
+#item6:hover,
+#item7:hover,
+#item8:hover {
+	box-shadow: 1px 1px 5px 1px #cccccc;
+}
+#item1 > span,
+#item2 > span,
+#item3 > span,
+#item4 > span,
+#item5 > span,
+#item6 > span,
+#item7 > span,
+#item8 > span {
+	/* background-color: rgb(180, 206, 11); */
+	background-color: black;
+	display: block;
+	text-align: center;
+	opacity: 0.8;
+	color: white;
+	border-radius: 2.5px;
+}
+
+.menus {
+	/* background-color: pink; */
+}
+#item1 {
+	background-image: url(../assest/item1.jpg);
+}
+#item2 {
+	background-image: url(../assest/item2.jpg);
+}
+#item3 {
+	background-image: url(../assest/item3.jpg);
+}
+#item4 {
+	background-image: url(../assest/item4.jpg);
+}
+#item5 {
+	background-image: url(../assest/item5.jpg);
+}
+#item6 {
+	background-image: url(../assest/item6.jpg);
+}
+#item7 {
+	background-image: url(../assest/item7.jpg);
+}
+#item8 {
+	background-image: url(../assest/item8.jpg);
+}
+.menus {
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}

@@ -1,0 +1,49 @@
+.pic > img {
+	border-radius: 10px;
+	height: 100px;
+}
+.flex_container1 {
+	margin-top: 30px;
+	/* display: flex; */
+	/* flex-wrap: wrap; */
+	background-color: yellow;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(195, 222, 98);
+	color: rgb(0, 30, 255);
+
+
+	margin-bottom: 30px;
+	border: 5px solid black;
+}
+.pic {
+	margin-top: 15px;
+	padding-right: 15px;
+	/* padding: 25px; */
+	float: left;
+	/* background-color: pink; */
+}
+.content {
+	padding: 25px;
+	margin-left: 10px;
+}
+
+.links {
+	text-align: center;
+	border: 5px solid black;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(195, 222, 98);
+	/* height: 150px; */
+	width: 200px;
+	margin-bottom: 30px;
+}
+.both {
+	background-color: pink;
+	display: flex;
+	justify-content: space-between;
+	margin-top: auto;
+	margin-bottom: auto;
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link href="./assest/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+		<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
+
+		<!-- <link rel="stylesheet" href="/bootstrap-5.1.0/dist/css/bootstrap.css" /> -->
+		<link rel="stylesheet" href="./css/bootstrap.min.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>Restaurant</title>
+	</head>
+	<body>
+	
+     <header>
+		<nav
+			class="
+				navbar navbar-expand-lg navbar-light
+				bg-warning
+				navigation
+				fixed-top nav_image
+			"
+		>
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html"
+					><img src="./assest/10067826.jpg" alt="logo"
+				/></a>
+				<h1 style="font-family: 'Satisfy', cursive">AB Restaurant</h1>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link " aria-current="page" href="Menu.html">Menu</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="About.html">About</a>
+						</li>
+						
+						<li class="nav-item">
+							<a class="nav-link" href="tel:555-555-1212"><i class="fas fa-phone-alt"></i>
+								555-555-1212</a>
+
+							<p>"We deliver"</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main>
+
+		<img src="./assest/restaurant.webp" class="img-fluid img_margin" alt="..." />
+		<!-- grid system -->
+		<div id="home_titles" class="row">
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<!-- <img src="assest/restaurant.webp" alt="" /> -->
+				<!-- <p class="col1">Menu</p> -->
+				<a href="Menu.html">
+					<div id="menu-item"><span>Menu</span></div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<!-- <img src="assest/restaurant.webp" alt="" />
+				<p class="col1">Special</p> -->
+				<a href="Special.html">
+					<div id="Special-item"><span>Special</span></div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-12 col-xs-12">
+				<!-- <img src="assest/restaurant.webp" alt="" />
+				<p class="col1">Map</p> -->
+				<a href="https://goo.gl/maps/4goCa1KMbWcLLMfv7" target="_blank">
+					<div id="Map-item">
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.311277270905!2d77.2078796004033!3d28.680333782312573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd9a05e15edf%3A0xc53e404e726dd8b2!2sHansraj%20College!5e0!3m2!1sen!2sin!4v1630843379599!5m2!1sen!2sin"
+							width="100%"
+							height="250"
+							style="border: 0"
+							allowfullscreen=""
+							loading="lazy"
+						></iframe
+						><span>Map</span>
+					</div>
+				</a>
+			</div>
+		</div>
+		<!-- end grid -->
+
+	</main>
+		<footer class="panel-footer">
+			<div class="row flex_container">
+				<div class="flex_item">
+					<p>Hours:</p>
+					<p>Sun - Thurs : 11:00 AM - 10:30 PM</p>
+					<p>Fri : 11:00 AM - 02:30 PM</p>
+					<p>Saturday : Closed</p>
+					<hr>
+				</div>
+				<div class="flex_item">
+					<p>Address:</p>
+					<p>Hansraj Colege,</p>
+					<p>University of Delhi</p>
+					<p style="color:yellow" class="small">
+						*Delivery area within 3-4 miles , with minimum order of $20 plus $3
+						charge for all deliveries.
+						<hr>
+					</p>
+				</div>
+				<div class="flex_item">
+					<p>
+						"The best Indian Food restaurant I've been to! And that's saying a
+						lot, since I've been to many!"
+					</p>
+					<p>
+						"Amazing food! Great service! Couldn't ask for more! I'll be back
+						again and again!"
+					</p>
+					<hr>
+				</div>
+				<p>© Copyright Alex 2021 | Admin</p>
+			</div>
+		</footer>
+		<script src="./js/jquery.min.js"></script>
+		<script src="./js/bootstrap.min.js"></script>
+		<script src="./js/script.js"></script>
+	</body>
+	<!-- footer start -->
+	
+</html>

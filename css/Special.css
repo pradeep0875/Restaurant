@@ -1,0 +1,72 @@
+#item1,
+#item2,
+#item3,
+#item4,
+#item5,
+#item6,
+#item7,
+#item8 {
+	height: 300px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 10px auto;
+}
+.item1 > span {
+	text-align: center;
+}
+#item1:hover,
+#item2:hover,
+#item3:hover,
+#item4:hover,
+#item5:hover,
+#item6:hover,
+#item7:hover,
+#item8:hover {
+	box-shadow: 1px 1px 5px 1px #cccccc;
+}
+#item1 > span,
+#item2 > span,
+#item3 > span,
+#item4 > span,
+#item5 > span,
+#item6 > span,
+#item7 > span,
+#item8 > span {
+	background-color:black;
+	display: block;
+	text-align: center;
+	opacity: 0.8;
+	color: white;
+	border-radius: 2.5px;
+}
+
+
+.menus {
+	/* background-color: pink; */
+}
+#item1 {
+	background-image: url(../assest/poha.jpg);
+}
+#item2 {
+	background-image: url(../assest/samosa.png);
+}
+#item3 {
+	background-image: url(../assest/kachori.jpeg);
+}
+#item4 {
+	background-image: url(../assest/jalebi.jpg);
+}
+#item5 {
+	background-image: url(../assest/bedai.png);
+}
+#item6 {
+	background-image: url(../assest/Ghevar.jpg);
+}
+
+.menus {
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	/* background-color: black; */
+}

@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+	overflow: none;
+}
+a{
+  text-decoration: none;
+}
+
+body {
+	background-color: rgba(125, 0, 160, 0.66);
+}
+.navigation{
+	position: sticky;
+}
+a > img {
+	clip-path: circle(50% at 50% 50%);
+	width: 100px;
+}
+
+ul {
+	margin-left: auto;
+	/* margin-right: 50px; */
+	font-weight: 520;
+}
+ul > li {
+	padding: 5px;
+}
+li > p {
+	margin-top: 9px;
+	margin-left: 10px;
+	font-size: 17px;
+	font-weight: 520;
+}
+.img_margin {
+	margin-top: 10px;
+	width: 100%;
+	height: 500px;
+}
+#menu-item,
+#Special-item,
+#Map-item {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 10px;
+	position: relative;
+	border: 2px solid #3f0c1f;
+}
+#home_titles {
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#menu-item:hover,
+#Special-item:hover,
+#Map-item:hover {
+	box-shadow: 1px 1px 5px 1px #cccccc;
+}
+#menu-item > span,
+#Special-item > span,
+#Map-item > span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	text-align: center;
+	width: 100%;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: 0.8;
+}
+#menu-item {
+	background-image: url(../assest/menu.jpg);
+	background-position: center;
+	width:100%
+	/* background-repeat: no-repeat; */
+}
+
+#Special-item {
+	background-image: url(../assest/Special.jpeg);
+	background-position: center;
+	width:100%
+
+	background-repeat: no-repeat;
+}
+ /* for small devides */
+ @media(min-width:500px) and (max-width:600px){
+	 .img_margin{
+   width: 100%;
+	 height: 400px;
+	 }
+ }
+
+ @media(min-width:300px) and (max-width:499px){
+	.img_margin{
+	width: 100%;
+	height: 300px;
+	}
+}
+ @media(min-width:1150px){
+	 .img_margin{
+		 width: 100%;
+		 height: auto;
+	 }	
+}
+ @media(min-width:732px){
+	hr{
+		visibility: hidden;
+	}
+}
+@media(max-width:575px){
+	#menu-item,
+	#Special-item,
+	#Map-item {
+		height: 250px;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+		position: relative;
+		border: 2px solid #3f0c1f;
+	}
+}
+.flex_container {
+	display: flex;
+	/* flex-wrap: wrap; */
+	background-color: darkslategrey;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+  justify-content: space-between;
+}
+.flex_item{
+	width:33%;
+}
+@media(max-width:731px){
+	.flex_item{
+		margin-top : 20px;
+		width: 99%;
+	}
+ .navbar-brand > img{
+	clip-path: circle(50% at 50% 50%);
+	width: 70px;
+	}
+}
+
+
+
